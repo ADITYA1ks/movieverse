@@ -7,7 +7,7 @@ function SearchResult() {
     const {movie} = useParams();
     const [data, setData] = useState();
 
-const url=`https://imdb-api.com/en/API/Search/k_pc65imsm/${movie}`
+const url=`https://imdb-api.com/en/API/Search/k_5u2bun1l/${movie}`
 
 useEffect(() => {
   async function fun1() {
